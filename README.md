@@ -29,28 +29,33 @@
 ### 2주차 숙제
 
 ```bash
-#!/usr/bin/env bash
+#!/bin/bash
+
+path=$(find /home/kau2/ -name "w2_homework.txt" 2> /dev/null)
+last=$(tail -n 1 $path)
+line=$(cat $path | wc -l)
+
 echo "----------"
-echo "name :"
-echo "박노헌"
-echo
+echo "name : "
+echo "윤서진"
+echo " "
 echo "----------"
 echo "student id :"
-echo "202321018"
-file_path=`find /home/kau2/ -name w2_homework.txt 2> /dev/null`
+echo "2022125036"
 echo "----------"
-echo
-echo "file path :"
-echo $file_path
-echo
-line_num=`wc -l $file_path | cut -c 1 -`
+echo " "
+echo "file path : "
+echo "$path"
+echo " "
 echo "----------"
-echo "line number :"
-echo $line_num
-echo
+echo "line number : "
+echo "$line"
+echo " "
 echo "----------"
-echo "lask line :"
-tail -n 1 $file_path
+echo "last line : "
+echo "$last"
+echo " "
+
 ```
 ## 마크다운
 ### 목록
