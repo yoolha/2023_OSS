@@ -5,7 +5,7 @@
 ### 3주차 git
 
 ### 이미지
-![한국항공대학교 로고](../img/kau/kau.png "한국항공대학교")
+![한국항공대학교 로고](../C:\Users\yoolha\Desktop\kau.pngkau.png "한국항공대학교")
 
 ### 링크   
 [LMS](https://lms.kau.ac.kr "항공대학교 강의관리시스템")
